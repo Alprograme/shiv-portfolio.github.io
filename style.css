@@ -1,0 +1,94 @@
+   html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("LMC_20250513_211119-01.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    font-size: 170%;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #fefdfd;
+    min-height: 100vh;
+}
+.logo {
+    display: block;
+    margin: 24px auto 0 auto;
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 60%;
+    border: 2px solid #ffffff; /* Border color */
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+.logo:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+#page_navigator a {
+    display: grid;
+    place-items: center;
+    text-align: right;
+    font-family: 'Garamond', serif; /* Change to your preferred font */
+    font-size: 70%;               /* Adjust size as needed */
+    background: #e0f2fa;            /* Light blue background */
+    color: #151515;                 /* Text color */
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+    display: inline-block;
+}
+#page_navigator a:hover {
+    background: #23d4ef;
+    color: #151515;
+    transform: rotateZ(-30deg) scale(1.1);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+.footer {
+    text-align: left;
+    font-size: 30%; /* Adjust size as needed */
+    padding: 20px; 
+    color: hwb(0 100% 0%); /* Dark text for contrast */
+    font-family: 'Garamond', serif; /* Change to your preferred font */
+}
+.highlight {
+    font-size: 2em;      /* Increase as needed */
+    color: #f8fc01;      /* Optional: highlight color */
+    font-weight: bold;   /* Optional: bold */
+}
+.Photos {
+    width: 70px; /* Adjust width as needed */
+    height: 70px; /* Adjust height as needed */
+    content: icon;
+    color: #ebfb04;
+    border: none;
+    border-radius:50%;
+    padding: 0;
+    cursor: pointer;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.3s;
+
+}
+.Photos:hover {
+    transform: rotateZ(-20deg) scale(1.1); 
+}
+.Photos .icon-gen {
+    width: 100%;                   /* Make image small */
+    height: 60%;
+    border-radius: 50%;           /* Space between image and text */
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* or flex-start/space-between as you like */
+    align-items: center;
+    gap: 24px; /* space between buttons */
+}

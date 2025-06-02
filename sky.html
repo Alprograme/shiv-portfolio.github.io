@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Sky Shots
+        </title>
+        <style>
+            html,body{
+                font-family: Arial, sans-serif;
+                background-image: url("LMC_20250513_211119-01.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 100%;
+                color: #ffffff;
+                margin: 0;
+                padding: 0px;
+            }
+            .pictu {
+                display:grid;
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* responsive grid */
+                justify-content: center; /* or flex-start, space-between, etc. */
+                align-items: center;
+                grid-auto-rows: 70px; /* fixed height for images */
+                gap: 24px; /* space between images */
+            }
+            .pictu img {
+                display:inline;
+                border-radius: 8px; /* optional: rounded corners */
+                transition: 0.2s;
+                object-fit: cover;
+                width: 100px;
+                height: 100px;
+            }
+            .pictu img:hover {
+                transform: scale(1.05);
+            }
+        </style>
+    </head>
+    <body>
+    <h1>Sky Photography</h1>
+    <p>Explore the beauty of the sky through my lens. Click on the images to view them in full size.</p>
+    <div class="pictu">
+        <a href="sky\sky.jpg" target="_blank">
+            <img src="sky/sky.jpg" alt="mono1" height="18%" width="10%">
+        </a>
+    
+        <a href="sky/sky1" target="_blank">
+            <img src="sky/sky1.jpg" alt="mono1" height="10%" width="10%">
+        </a>
+   
+        <a href="sky/sky2.jpg" target="_blank">
+            <img src="sky/sky2.jpg" alt="mono2" height="10%" width="10%">
+        </a>
+   
+        <a href="sky/sky3.jpg" target="_blank">
+            <img src="sky/sky3.jpg" alt="mono3" height="10%" width="10%">
+        </a>
+   
+        <a href="sky/sky4.jpeg" target="_blank">
+            <img src="sky/sky4.jpeg" alt="mono4" height="10%" width="10%">
+        </a>
+        <a href="sky/sky5.jpg" target="_blank">
+            <img src="sky/sky5.jpg" alt="mono5" height="10%" width="10%">
+        </a>
+        <a href="sky/sky6.jpg" target="_blank">
+            <img src="sky/sky6.jpg" alt="mono6" height="10%" width="10%">
+        </a>
+    </div>
+</body>
+</html>

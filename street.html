@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>street Photos
+        </title>
+        <style>
+            html,body{
+                font-family: Arial, sans-serif;
+                background-image: url("LMC_20250513_211119-01.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 100%;
+                color: #ffffff;
+                margin: 0;
+                padding: 0px;
+            }
+            .pict {
+                display:grid;
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* responsive grid */
+                grid-auto-rows: 70px; /* fixed height for images */
+                justify-content: center; /* or flex-start, space-between, etc. */
+                align-items:center;
+                gap: 24px; /* s* space between images */
+            }
+            .pict img {
+                display:inline;
+                border-radius: 8px; /* optional: rounded corners */
+                transition: 0.2s;
+                object-fit: cover;
+                width: 100px;
+                height: 100px;
+            }
+            .pict img:hover {
+                transform: scale(1.05);
+            }
+        </style>
+    </head>
+<body>
+    <h1>Street Photography</h1>
+    <p>Explore the beauty of street photography through my lens. Click on the images to view them in full size.</p>
+    <div class="pict">
+        <a href="street/street.jpeg" target="_blank">
+            <img src="street/street.jpeg" alt="mono1" height="18%" width="10%">
+        </a>
+    
+        <a href="street/street1.jpg" target="_blank">
+            <img src="street/street1.jpg" alt="mono1" height="10%" width="10%">
+        </a>
+   
+        <a href="street/street2.jpeg" target="_blank">
+            <img src="street/street2.jpeg" alt="mono2" height="10%" width="10%">
+        </a>
+   
+        <a href="street/street3.JPG" target="_blank">
+            <img src="street/street3.JPG" alt="mono3" height="10%" width="10%">
+        </a>
+   
+        <a href="street/street4.JPG" target="_blank">
+            <img src="street/street4.JPG" alt="mono4" height="10%" width="10%">
+        </a>
+    
+        <a href="street/street5.JPG" target="_blank">
+            <img src="street/street5.JPG" alt="mono5" height="10%" width="10%">
+        </a>
+   
+        <a href="street/street7.JPG" target="_blank">
+            <img src="street/street7.JPG" alt="mono6" height="10%" width="10%">
+        </a>
+        <a href="street/street9.jpg" target="_blank">
+            <img src="street/street9.jpg" alt="mono7" height="10%" width="10%">
+        </a>
+        <a href="street/street10.jpg" target="_blank">
+            <img src="street/street10.jpg" alt="mono8" height="10%" width="10%">
+        </a>
+        <a href="street/street11.jpg" target="_blank">
+            <img src="street/street11.jpg" alt="mono9" height="10%" width="10%">
+        </a>
+        <a href="street/street13.JPG" target="_blank">
+            <img src="street/street13.JPG" alt="mono10" height="10%" width="10%">
+        </a>
+        <a href="street/street15.JPG" target="_blank">
+            <img src="street/street15.JPG" alt="mono11" height="10%" width="10%">
+        </a>
+        <a href="street/street17.JPG" target="_blank">
+            <img src="street/street17.JPG" alt="mono13" height="10%" width="10%">
+        </a>
+        <a href="street/street19.jpeg" target="_blank">
+            <img src="street/street19.jpeg" alt="mono14" height="10%" width="10%">
+        </a>
+        <a href="street/street20.jpeg" target="_blank">
+            <img src="street/street20.jpeg" alt="mono15" height="10%" width="10%">
+        </a>
+
+    </div>
+</body>
+</html>
